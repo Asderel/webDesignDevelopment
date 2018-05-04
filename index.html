@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>EasyRide</title>
+  
+        <link rel="stylesheet" href="css/darklybootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap-social.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/myCss.css">
+        <link href="https://blokkfont-losgordos.netdna-ssl.com/v2/blokkfont.css" rel="stylesheet" type="text/css">
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="js/wow.min.js"></script>
+
+    </head>
+    <body>
+        <!-------- #NAVBAR -------->
+        <nav class="navbar navbar-dark bg-info navbar-expand-lg sticky-top">
+            <div class="container">
+                 <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.jpeg" height="45" class="d-inline-block align-top" alt="logo">
+                    <span class="text-secondary" style="margin-left: 16px; font-size: 2vw; font-weight:bold;">EasyRide</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Expandir navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <!-- a class="nav-link text-secondary" href="#">Home <span class="sr-only">(current)</span></a -->
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="nosession-group">
+                            <a class="btn btn-secondary btn-lg mr-4" id="authorize-button" href="mainLogedIn.html">Login</a>
+                        </li>
+                        <li class="nav-item" id="nosession-group">
+                            <a class="btn btn-secondary btn-lg" id="authorize-button" href="main.html">Continue as Guest</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-------- #NAVBAREND -------->
+
+        <div class="container mt-4 pb-3">
+            <!-------- #JUMBOTRON -------->
+            <div class="jumbotron py-4">
+                <h1 class="display-4" >Welcome!</h1>
+                <p class="lead">Welcome to EasyRide, the easiest way to move around your city</p>
+                <p>Here you can find the motorbike closer to you and rent it to take a ride. Give it a try!</p>
+
+            </div>
+            <!-------- #JUMBOTRONEND -------->
+
+            <!-- #CAROUSEL -->
+            <div class="row">
+                <div id="carousel" class="carousel slide pb-4 col-6" data-ride="carousel" style="width: 50%;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img\mFleetResized.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img\womanResized.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img\cityResized.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <p id="imageDescription" style="font-size: 26px;">We have a huge fleet of motorbikes at your disposition.\n At any time, at any moment you could find and have a comfortable ride.</p>
+                </div>
+            </div>
+
+            <!-- #CAROUSELEND -->
+
+            <!-- WIDGETS -->
+            <div class="row my-5">
+                <div class="col-8">
+                    <iframe width="100%" height="512" src="https://www.youtube.com/embed/pwMsBA9GfsM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <a class="twitter-timeline" data-width="288" data-height="512" data-theme="dark" href="https://twitter.com/waterfdweather?ref_src=twsrc%5Etfw">Tweets by waterfdweather</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <!-- WIDGETSEND -->
+        </div>
+            
+        
+        <!--FOOTER-->
+        <nav class="navbar navbar-dark bg-primary footer">
+            <div class="container">
+                <nav class="nav mr-auto">
+                    <a class="nav-link btn btn-warning px-2 py-1 mx-1" href="https://www.facebook.com">
+                        <i class="fa fa-facebook-official fa-2x"></i></a>
+                    <a class="nav-link btn btn-warning px-2 py-1 mx-1" href="https://plus.google.com">
+                        <i class="fa fa-google-plus-official fa-2x"></i></a>
+                    <a class="nav-link btn btn-warning px-2 py-1 mx-1" href="https://www.twitter.com">
+                        <i class="fa fa-twitter fa-2x"></i></a>
+                    <a class="nav-link btn btn-warning px-2 py-1 mx-1" href="https://www.instagram.com">
+                        <i class="fa fa-instagram fa-2x"></i></a>
+                </nav>
+                <nav class="nav">
+                    <a class="nav-link" href="mailto:pablosabin992@gmail.com" style="color: white;">Contact us</a>
+                </nav>
+            </div>
+        </nav>
+         <!--FOOTEREND-->
+        <script>
+            $('#carousel').on('slid.bs.carousel', function (e) {
+
+                var speed = 400;
+                if (e.to == 0) {
+                    $('#imageDescription').fadeOut(speed, function () {
+                        $('#imageDescription').text('We have a huge fleet of motorbikes at your disposition.\n At any time, at any moment you could find and have a comfortable ride.');
+                        $('#imageDescription').fadeIn(speed);    
+                    });
+                    
+                } else if (e.to == 1) {
+                    $('#imageDescription').fadeOut(speed, function () {
+                        $('#imageDescription').text('"EasyRide is a really good platform and a good service as well.\n I used to arrive late at job but now I do not need to be worried about trafic or parking anymore."');
+                        $('#imageDescription').fadeIn(speed);    
+                    });
+                } else if (e.to == 2) {
+                    $('#imageDescription').fadeOut(speed, function () {
+                        $('#imageDescription').text('We are currently helping thousands of people in several cities of the world.\n You can find us in New York, Málaga, Waterfod or even Tokio.');
+                        $('#imageDescription').fadeIn(speed);    
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
